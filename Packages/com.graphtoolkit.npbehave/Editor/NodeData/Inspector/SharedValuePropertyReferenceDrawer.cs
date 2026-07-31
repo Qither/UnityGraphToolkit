@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.UIElements;

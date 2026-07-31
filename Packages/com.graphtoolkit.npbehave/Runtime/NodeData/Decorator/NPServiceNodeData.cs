@@ -1,6 +1,6 @@
 using System;
 #if UNITY_EDITOR
-using PiRhoSoft.Utilities;
+using GraphToolkit.Inspector;
 using UnityEngine;
 #endif
 

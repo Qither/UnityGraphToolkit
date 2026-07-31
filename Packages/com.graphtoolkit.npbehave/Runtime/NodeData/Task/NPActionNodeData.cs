@@ -13,7 +13,7 @@ namespace NPBehave
 
 #if UNITY_EDITOR
         [UnityEngine.SerializeReference]
-        [PiRhoSoft.Utilities.Reference]
+        [GraphToolkit.Inspector.Reference]
 #endif
         public ANPActionData actionData;
         

@@ -2,7 +2,7 @@
   "name": "RedDotSystem.Runtime",
   "rootNamespace": "RedDotSystem.Runtime",
   "references": [
-    "PiRho.Utilities.Runtime",
+    "GraphToolkit.Inspector.Runtime",
     "Unity.Newtonsoft.Json"
   ],
   "includePlatforms": [],

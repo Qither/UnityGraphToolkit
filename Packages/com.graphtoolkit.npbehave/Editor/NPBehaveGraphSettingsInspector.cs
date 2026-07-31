@@ -1,8 +1,8 @@
 using NPBehave;
 using System;
 using System.Linq;
-using PiRhoSoft.Utilities;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector;
+using GraphToolkit.Inspector.Editor;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;

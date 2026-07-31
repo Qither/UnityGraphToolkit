@@ -1,6 +1,6 @@
 using GraphProcessor;
 using NPBehaveEditor;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;

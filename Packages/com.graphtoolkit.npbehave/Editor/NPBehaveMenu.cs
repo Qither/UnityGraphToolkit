@@ -3,7 +3,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 using NPBehaveEditor;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using System.Reflection;
 
 namespace NPBehaveEditor

@@ -1,7 +1,7 @@
 using GraphProcessor;
 using Newtonsoft.Json;
 using NPBehave;
-using PiRhoSoft.Utilities;
+using GraphToolkit.Inspector;
 using System;
 using System.Collections.Generic;
 using System.IO;

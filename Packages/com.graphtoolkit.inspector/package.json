@@ -1,0 +1,9 @@
+{
+  "name": "com.graphtoolkit.inspector",
+  "displayName": "Graph Toolkit Inspector",
+  "version": "1.0.0",
+  "unity": "6000.3",
+  "description": "Reusable Unity Inspector traits, UI Toolkit controls, and serialized collection support.",
+  "keywords": ["inspector", "ui-toolkit", "editor"],
+  "author": { "name": "Graph Toolkit Contributors" }
+}

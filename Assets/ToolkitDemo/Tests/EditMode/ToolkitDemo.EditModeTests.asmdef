@@ -8,6 +8,7 @@
         "NPBehaveEditor",
         "RedDotSystem.Runtime",
         "RedDotSystem.Editor",
+        "GraphToolkit.Inspector.Editor",
         "com.alelievr.NodeGraphProcessor.Runtime",
         "Unity.Newtonsoft.Json",
         "UnityEngine.TestRunner",

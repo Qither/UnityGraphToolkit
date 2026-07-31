@@ -1,6 +1,6 @@
 ﻿using GraphProcessor;
-using PiRhoSoft.Utilities;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector;
+using GraphToolkit.Inspector.Editor;
 using RedDotSystem.Editor.Node;
 using RedDotSystem.Runtime.Component;
 using System;

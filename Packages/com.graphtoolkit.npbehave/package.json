@@ -6,6 +6,7 @@
   "description": "Visual NPBehave behavior trees with a project-independent runtime and safe JSON serialization.",
   "dependencies": {
     "com.graphtoolkit.foundation": "1.0.0",
+    "com.graphtoolkit.inspector": "1.0.0",
     "com.unity.nuget.newtonsoft-json": "3.2.1"
   },
   "keywords": ["behavior-tree", "ai", "graph"],

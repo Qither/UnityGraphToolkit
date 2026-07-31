@@ -1,5 +1,5 @@
 using GraphProcessor;
-using PiRhoSoft.Utilities;
+using GraphToolkit.Inspector;
 using System;
 using System.Collections.Generic;
 using System.Linq;

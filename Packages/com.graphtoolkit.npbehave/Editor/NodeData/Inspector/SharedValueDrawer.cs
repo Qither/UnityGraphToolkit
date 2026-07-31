@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;

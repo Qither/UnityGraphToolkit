@@ -1,8 +1,8 @@
 ﻿using GraphProcessor;
 using RedDotSystem.Editor.Node;
 using UnityEngine.UIElements;
-using PiRhoSoft.Utilities;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector;
+using GraphToolkit.Inspector.Editor;
 using RedDotSystem.Runtime;
 using System;
 using System.Collections;

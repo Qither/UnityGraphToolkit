@@ -2,8 +2,8 @@
     "name": "SerializeExpansion.Editor",
     "rootNamespace": "",
     "references": [
-        "PiRho.Utilities.Editor",
-        "PiRho.Utilities.Runtime",
+        "GraphToolkit.Inspector.Editor",
+        "GraphToolkit.Inspector.Runtime",
         "SerializeExpansion.Runtime"
     ],
     "includePlatforms": [

@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using PiRhoSoft.Utilities;
+using GraphToolkit.Inspector;
 
 namespace NPBehave
 {

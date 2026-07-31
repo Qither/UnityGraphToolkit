@@ -1,5 +1,5 @@
 using GraphProcessor;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;

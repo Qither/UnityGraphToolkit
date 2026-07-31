@@ -4,8 +4,8 @@
     "references": [
         "com.alelievr.NodeGraphProcessor.Editor",
         "com.alelievr.NodeGraphProcessor.Runtime",
-        "PiRho.Utilities.Editor",
-        "PiRho.Utilities.Runtime",
+        "GraphToolkit.Inspector.Editor",
+        "GraphToolkit.Inspector.Runtime",
         "NPBehaveRuntime",
         "GraphNodeLayoutExpansion.Runtime",
         "Unity.Newtonsoft.Json"

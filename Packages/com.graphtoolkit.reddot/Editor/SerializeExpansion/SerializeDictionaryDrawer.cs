@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector.Editor;
 using SerializeExpansion.Runtime;
 using System;
 using UnityEditor;

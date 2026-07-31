@@ -6,6 +6,7 @@
   "description": "Project-independent red-dot runtime and visual editor with generated executors and safe JSON configuration.",
   "dependencies": {
     "com.graphtoolkit.foundation": "1.0.0",
+    "com.graphtoolkit.inspector": "1.0.0",
     "com.unity.nuget.newtonsoft-json": "3.2.1"
   },
   "keywords": ["red-dot", "notification", "graph"],

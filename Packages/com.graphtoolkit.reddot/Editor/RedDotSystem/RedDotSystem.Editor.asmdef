@@ -2,8 +2,8 @@
     "name": "RedDotSystem.Editor",
     "rootNamespace": "",
     "references": [
-        "PiRho.Utilities.Editor",
-        "PiRho.Utilities.Runtime",
+        "GraphToolkit.Inspector.Editor",
+        "GraphToolkit.Inspector.Runtime",
         "com.alelievr.NodeGraphProcessor.Editor",
         "com.alelievr.NodeGraphProcessor.Runtime",
         "SerializeExpansion.Editor",

@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System;
-using PiRhoSoft.Utilities;
-using PiRhoSoft.Utilities.Editor;
+using GraphToolkit.Inspector;
+using GraphToolkit.Inspector.Editor;
 using System.Linq;
 using System.Reflection;
 using UnityEditor;

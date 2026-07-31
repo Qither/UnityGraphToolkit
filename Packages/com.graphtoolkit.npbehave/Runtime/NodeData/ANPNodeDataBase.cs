@@ -26,8 +26,8 @@ namespace NPBehave
         /// 节点信息描述
         /// </summary>
 #if UNITY_EDITOR
-        [PiRhoSoft.Utilities.Stretch]
-        [PiRhoSoft.Utilities.Multiline]
+        [GraphToolkit.Inspector.Stretch]
+        [GraphToolkit.Inspector.Multiline]
 #endif
         public string nodeDes;
 
