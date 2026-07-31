@@ -1,0 +1,19 @@
+{
+  "exclude": [
+    "Library/",
+    "Temp/",
+    "Logs/",
+    "UserSettings/",
+    "TestResults/",
+    "obj/",
+    "Obj/",
+    "Build/",
+    "build/",
+    "Builds/",
+    "builds/",
+    "MemoryCaptures/",
+    "Recordings/",
+    ".idea/",
+    ".vs/"
+  ]
+}

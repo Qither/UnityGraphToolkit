@@ -1,0 +1,12 @@
+{
+  "name": "com.graphtoolkit.foundation",
+  "displayName": "Graph Toolkit Foundation",
+  "version": "1.0.0",
+  "unity": "6000.3",
+  "description": "Shared PiRho utilities and deterministic node auto-layout for reusable graph packages.",
+  "keywords": ["graph", "editor", "layout"],
+  "dependencies": {
+    "com.alelievr.node-graph-processor": "1.3.1"
+  },
+  "author": { "name": "Graph Toolkit Contributors" }
+}

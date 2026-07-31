@@ -9,7 +9,7 @@ namespace ToolkitDemo.Editor
     [NodeMenuItem("NPBehave/Task/Demo Set Blackboard", typeof(NPBehaveGraph))]
     public sealed class DemoSetBlackboardActionNode : ANPTaskNodeBase
     {
-        public override string Name => "Set Blackboard";
+        public override string name => "Set Blackboard";
 
         public override string Icon => "DarkActionIcon";
 

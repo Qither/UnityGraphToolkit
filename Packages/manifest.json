@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.alelievr.node-graph-processor": "https://github.com/alelievr/NodeGraphProcessor.git?path=/Assets/com.alelievr.NodeGraphProcessor#15d714e9d5b098b2b0138d82460e563f97ffbd80",
     "com.unity.multiplayer.center": "1.0.1",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",

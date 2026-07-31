@@ -4,9 +4,10 @@ Standalone Unity 6 host project for a reusable graph foundation, NPBehave visual
 
 ## Packages
 
-- `com.tdtoolkit.graph-foundation`: NodeGraphProcessor, PiRho Utilities and deterministic node auto-layout.
-- `com.tdtoolkit.npbehave`: behavior-tree runtime, visual editor and safe JSON serialization.
-- `com.tdtoolkit.reddot`: red-dot runtime, visual editor, safe JSON export and generated executors.
+- `com.alelievr.node-graph-processor`: upstream NodeGraphProcessor, pinned from Git through Unity Package Manager.
+- `com.graphtoolkit.foundation`: PiRho Utilities and deterministic node auto-layout.
+- `com.graphtoolkit.npbehave`: behavior-tree runtime, visual editor and safe JSON serialization.
+- `com.graphtoolkit.reddot`: red-dot runtime, visual editor, safe JSON export and generated executors.
 
 The project intentionally contains no game-specific runtime layers, production graphs, or source-project asset paths.
 
