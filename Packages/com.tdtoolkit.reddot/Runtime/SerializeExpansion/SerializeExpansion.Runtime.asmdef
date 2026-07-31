@@ -1,0 +1,16 @@
+{
+    "name": "SerializeExpansion.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "PiRho.Utilities.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

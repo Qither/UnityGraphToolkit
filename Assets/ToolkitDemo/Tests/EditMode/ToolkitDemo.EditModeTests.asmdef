@@ -1,0 +1,29 @@
+{
+    "name": "ToolkitDemo.EditModeTests",
+    "rootNamespace": "ToolkitDemo.Tests",
+    "references": [
+        "ToolkitDemo.Runtime",
+        "ToolkitDemo.Editor",
+        "NPBehaveRuntime",
+        "NPBehaveEditor",
+        "RedDotSystem.Runtime",
+        "RedDotSystem.Editor",
+        "com.alelievr.NodeGraphProcessor.Runtime",
+        "Unity.Newtonsoft.Json",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

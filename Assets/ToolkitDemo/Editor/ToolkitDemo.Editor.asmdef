@@ -1,0 +1,25 @@
+{
+    "name": "ToolkitDemo.Editor",
+    "rootNamespace": "ToolkitDemo.Editor",
+    "references": [
+        "ToolkitDemo.Runtime",
+        "NPBehaveRuntime",
+        "NPBehaveEditor",
+        "RedDotSystem.Runtime",
+        "RedDotSystem.Editor",
+        "SerializeExpansion.Runtime",
+        "com.alelievr.NodeGraphProcessor.Runtime",
+        "com.alelievr.NodeGraphProcessor.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

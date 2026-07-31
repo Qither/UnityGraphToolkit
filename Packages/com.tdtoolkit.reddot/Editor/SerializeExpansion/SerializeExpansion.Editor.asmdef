@@ -1,0 +1,20 @@
+{
+    "name": "SerializeExpansion.Editor",
+    "rootNamespace": "",
+    "references": [
+        "PiRho.Utilities.Editor",
+        "PiRho.Utilities.Runtime",
+        "SerializeExpansion.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

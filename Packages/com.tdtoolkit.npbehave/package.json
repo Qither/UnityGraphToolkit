@@ -1,0 +1,14 @@
+{
+  "name": "com.tdtoolkit.npbehave",
+  "displayName": "TD Toolkit NPBehave",
+  "version": "1.0.0",
+  "unity": "6000.3",
+  "description": "Visual NPBehave behavior trees with a project-independent runtime and safe JSON serialization.",
+  "dependencies": {
+    "com.tdtoolkit.graph-foundation": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "keywords": ["behavior-tree", "ai", "graph"],
+  "author": { "name": "TD Toolkit" }
+}
+

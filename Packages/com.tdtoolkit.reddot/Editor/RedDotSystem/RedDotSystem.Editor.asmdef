@@ -1,0 +1,27 @@
+{
+    "name": "RedDotSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "PiRho.Utilities.Editor",
+        "PiRho.Utilities.Runtime",
+        "com.alelievr.NodeGraphProcessor.Editor",
+        "com.alelievr.NodeGraphProcessor.Runtime",
+        "SerializeExpansion.Editor",
+        "SerializeExpansion.Runtime",
+        "GraphNodeLayoutExpansion.Editor",
+        "GraphNodeLayoutExpansion.Runtime",
+        "RedDotSystem.Runtime",
+        "Unity.Newtonsoft.Json"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

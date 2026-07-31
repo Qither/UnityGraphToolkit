@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8a6b14dd8bf43419dd5d46856808d9, type: 3}
+  m_Name: RedDotDemo
+  m_EditorClassIdentifier: RedDotSystem.Editor::RedDotSystem.Editor.RedDotGraph
+  serializedNodes: []
+  nodes:
+  - rid: 350178677998223365
+  - rid: 350178677998223366
+  - rid: 350178677998223367
+  edges:
+  - GUID: a7fdeff1-93e6-4bb0-b3d6-67ba2a1939f0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 80c1a4a9-db62-4234-b272-f52761e33335
+    outputNodeGUID: 4d7f62a1-5108-4a3d-917e-e0dfa1f4976e
+    inputFieldName: WordInput
+    outputFieldName: WordOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: a4edf6d2-bc16-49d1-a21e-6647a4912c25
+    owner: {fileID: 11400000}
+    inputNodeGUID: cdeaf793-2b57-467a-8d55-924260168c93
+    outputNodeGUID: 80c1a4a9-db62-4234-b272-f52761e33335
+    inputFieldName: WordInput
+    outputFieldName: WordOutput
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  Settings: {fileID: 11400000, guid: 2267ed1ff73361e42bdd0400a2c9a0af, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 350178677998223365
+      type: {class: RedDotNode, ns: RedDotSystem.Editor.Node, asm: RedDotSystem.Editor}
+      data:
+        nodeCustomName: Inbox
+        GUID: 4d7f62a1-5108-4a3d-917e-e0dfa1f4976e
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 80
+          y: 80
+          width: 250
+          height: 160
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        WordInput: 
+        WordOutput: 
+        Data:
+          Node: 1
+          Link: 0
+          Desc: Normal aggregate node
+          Order: 0
+          Key: Inbox
+          Number: 0
+          System: 0
+        Rule:
+          Rules:
+            items: []
+    - rid: 350178677998223366
+      type: {class: RedDotNode, ns: RedDotSystem.Editor.Node, asm: RedDotSystem.Editor}
+      data:
+        nodeCustomName: Rewards
+        GUID: 80c1a4a9-db62-4234-b272-f52761e33335
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 380
+          y: 80
+          width: 250
+          height: 160
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        WordInput: 
+        WordOutput: 
+        Data:
+          Node: 1
+          Link: 0
+          Desc: Leaf execution node with a custom rule
+          Order: 1
+          Key: 'Inbox
+
+            Rewards'
+          Number: 0
+          System: 0
+        Rule:
+          Rules:
+            items:
+            - rid: 350178677998223368
+    - rid: 350178677998223367
+      type: {class: RedDotMultiNode, ns: RedDotSystem.Editor.Node, asm: RedDotSystem.Editor}
+      data:
+        nodeCustomName: 
+        GUID: cdeaf793-2b57-467a-8d55-924260168c93
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 680
+          y: 80
+          width: 250
+          height: 160
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        WordInput: 
+        Data:
+          MultiNodeData: DemoMultiRedDotData
+          System: 1
+        Rule:
+          Rules:
+            items: []
+    - rid: 350178677998223368
+      type: {class: RuleData, ns: RedDotSystem.Editor.Node, asm: RedDotSystem.Editor}
+      data:
+        Name: DemoPassThroughRule

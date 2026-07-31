@@ -1,0 +1,21 @@
+﻿.customText
+{
+	width: 0px;
+	min-width: 0px;
+	max-width: 100px;
+}
+
+.unity-text-element--inner-input-field-component
+{
+	font-size: 16px;
+	-unity-font-style: bold;
+	height: auto;
+	width: 800px;
+	white-space: normal;
+	/*text-overflow: clip;
+	overflow: visible;
+	flex-wrap: wrap;*/
+
+	/* 可选：设置最小高度避免太小 */
+	min-height: 16px;
+}

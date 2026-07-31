@@ -1,0 +1,19 @@
+{
+    "name": "ToolkitDemo.PlayModeTests",
+    "rootNamespace": "ToolkitDemo.Tests",
+    "references": [
+        "ToolkitDemo.Runtime",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

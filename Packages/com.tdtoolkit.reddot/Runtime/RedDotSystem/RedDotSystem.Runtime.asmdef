@@ -1,0 +1,17 @@
+{
+  "name": "RedDotSystem.Runtime",
+  "rootNamespace": "RedDotSystem.Runtime",
+  "references": [
+    "PiRho.Utilities.Runtime",
+    "Unity.Newtonsoft.Json"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

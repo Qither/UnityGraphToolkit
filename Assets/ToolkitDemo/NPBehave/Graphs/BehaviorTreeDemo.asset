@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e79ec8979f343f88105fa4c207b104c, type: 3}
+  m_Name: BehaviorTreeDemo
+  m_EditorClassIdentifier: NPBehaveEditor::NPBehaveEditor.NPBehaveGraph
+  serializedNodes: []
+  nodes:
+  - rid: 350178677998223360
+  - rid: 350178677998223361
+  - rid: 350178677998223362
+  edges:
+  - GUID: fa1fd4f1-6286-487a-b834-b6add3938b6d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 169f90ad-51cc-44bd-82bf-2189e8811f58
+    outputNodeGUID: 44a73b57-46eb-4d43-90ca-213840e661c2
+    inputFieldName: PrevNode
+    outputFieldName: NextNode
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 81333f19-920d-4b8d-ba80-eec98d35966b
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2c23ff9e-ff6b-4916-b31e-9b59b725fea4
+    outputNodeGUID: 169f90ad-51cc-44bd-82bf-2189e8811f58
+    inputFieldName: PrevNode
+    outputFieldName: NextNode
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  Config:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 350178677998223360
+      type: {class: NPRootNode, ns: NPBehaveEditor, asm: NPBehaveEditor}
+      data:
+        nodeCustomName: 
+        GUID: 44a73b57-46eb-4d43-90ca-213840e661c2
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 100
+          y: 50
+          width: 240
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        RootNodeData:
+          id: 0
+          linkedIds: 
+          nodeDes: Demo root
+          blackboardValues:
+            keys:
+            - DemoRunCount
+            values:
+            - rid: 350178677998223363
+    - rid: 350178677998223361
+      type: {class: NPSequenceNode, ns: NPBehaveEditor, asm: NPBehaveEditor}
+      data:
+        nodeCustomName: 
+        GUID: 169f90ad-51cc-44bd-82bf-2189e8811f58
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 100
+          y: 250
+          width: 240
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        SequenceNodeData:
+          id: 0
+          linkedIds: 
+          nodeDes: Sequence
+    - rid: 350178677998223362
+      type: {class: DemoSetBlackboardActionNode, ns: ToolkitDemo.Editor, asm: ToolkitDemo.Editor}
+      data:
+        nodeCustomName: 
+        GUID: 2c23ff9e-ff6b-4916-b31e-9b59b725fea4
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 100
+          y: 450
+          width: 240
+          height: 120
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        ActionNodeData:
+          id: 0
+          linkedIds: 
+          nodeDes: Increment DemoRunCount
+          actionData:
+            rid: 350178677998223364
+    - rid: 350178677998223363
+      type: {class: SharedInt, ns: NPBehave, asm: NPBehaveRuntime}
+      data:
+        Value: 0
+    - rid: 350178677998223364
+      type: {class: DemoSetBlackboardAction, ns: ToolkitDemo.NPBehaveDemo, asm: ToolkitDemo.Runtime}
+      data:
+        key: DemoRunCount

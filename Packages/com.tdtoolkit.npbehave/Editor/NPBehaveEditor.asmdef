@@ -1,0 +1,24 @@
+{
+    "name": "NPBehaveEditor",
+    "rootNamespace": "NPBehaveEditor",
+    "references": [
+        "com.alelievr.NodeGraphProcessor.Editor",
+        "com.alelievr.NodeGraphProcessor.Runtime",
+        "PiRho.Utilities.Editor",
+        "PiRho.Utilities.Runtime",
+        "NPBehaveRuntime",
+        "GraphNodeLayoutExpansion.Runtime",
+        "Unity.Newtonsoft.Json"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "com.tdtoolkit.reddot",
+  "displayName": "TD Toolkit Red Dot",
+  "version": "1.0.0",
+  "unity": "6000.3",
+  "description": "Project-independent red-dot runtime and visual editor with generated executors and safe JSON configuration.",
+  "dependencies": {
+    "com.tdtoolkit.graph-foundation": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "keywords": ["red-dot", "notification", "graph"],
+  "author": { "name": "TD Toolkit" }
+}
+

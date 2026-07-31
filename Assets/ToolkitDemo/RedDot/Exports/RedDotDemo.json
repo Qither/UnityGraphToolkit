@@ -1,0 +1,57 @@
+{
+  "$id": "1",
+  "formatVersion": 1,
+  "root": {
+    "$id": "2",
+    "$type": "RedDotSystem.Runtime.RedDotSingeData",
+    "NodeName": "ROOT",
+    "BindSystem": 0,
+    "NextData": [
+      {
+        "$id": "3",
+        "$type": "RedDotSystem.Runtime.RedDotSingeData",
+        "LinkData": {
+          "$id": "4",
+          "PreNodeData": [],
+          "NextNodeData": []
+        },
+        "NodeName": "ROOT_Inbox",
+        "BindSystem": 0,
+        "NextData": [
+          {
+            "$id": "5",
+            "$type": "RedDotSystem.Runtime.RedDotSingeData",
+            "LinkData": {
+              "$id": "6",
+              "PreNodeData": [],
+              "NextNodeData": []
+            },
+            "NodeName": "ROOT_Inbox_Rewards",
+            "BindSystem": 0,
+            "PreData": {
+              "$ref": "3"
+            },
+            "NextData": [
+              {
+                "$id": "7",
+                "$type": "ToolkitDemo.RedDotDemo.DemoMultiRedDotData",
+                "NodeName": "ROOT_Inbox_Rewards",
+                "BindSystem": 1,
+                "PreData": {
+                  "$ref": "5"
+                },
+                "NextData": []
+              }
+            ],
+            "Rules": [
+              {
+                "$id": "8",
+                "$type": "ToolkitDemo.RedDotDemo.DemoPassThroughRule"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+﻿.pirho-enum-buttons-field
+{
+}
+
+.pirho-enum-buttons-field__input
+{
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.pirho-enum-buttons-field__input__button
+{
+	background-color: #353535;
+	flex-grow: 1;
+	margin: 0px;
+	border-radius: 0px;
+	border-right-width: 0px;
+}
+
+.pirho-enum-buttons-field__input__button--active
+{
+	background-color: #585858;
+}
+
+.pirho-enum-buttons-field__input__button--first
+{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.pirho-enum-buttons-field__input__button--last
+{
+	border-right-width: 1px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
